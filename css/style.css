@@ -1,0 +1,217 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-1);
+    background-image: url(../storage/img/background.svg); 
+}
+.header {
+    padding: var(--padding-page);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.header__title img{
+    height: var(--image-height);
+    width: var(--image-width);
+    filter: invert(1);
+}
+.header__title span{
+    color: var(--color-4);
+    font-family: "Baskerville-Bold";
+}
+.header__sidebar {
+}
+.header__sidebar img{
+    height: var(--image-height);
+    width: var(--image-width);
+    filter: invert(1);
+}
+.bienvenido {
+    padding: var(--padding-page);
+    /* background: green; */
+}
+.bienvenido__saludo {
+    margin-top: 25px;
+    color: var(--color-4);
+    font-size: 30px;
+    
+    /* background: blue; */
+}
+.bienvenido__saludo h1{
+    font-family: "Baskerville-Heavy";
+}
+.bienvenido__saludo p{
+    font-family: "Baskerville-Light";
+}
+.bienvenido__datos {
+    /* background: brown; */
+    margin-top: 17px;
+    color: var(--color-4);
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenido__datos div{
+    display: flex;
+    flex-direction: column;
+}
+.bienvenido__datos small{
+    font-family: "Baskerville-Medium";
+    font-size: var(--font-size);
+}
+.bienvenido__datos span{
+    font-family: "Baskerville-Bold";
+    font-size: 20px;
+}
+.bienvenido__datos div img{
+    margin-top: 10px;
+    width: 140px;
+}
+.main {
+    background: var(--color-4);
+    margin-top: 25px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.section__activities {     
+    padding: var(--padding-page);
+    margin-top: 30px;
+}
+.section__activities h3{
+    font-family: "Baskerville-Bold";
+    position: relative;
+    top: 20px;
+    
+}
+.activities__div{
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    overflow-x: scroll;
+    height: 170px;
+    
+}
+.activities__article{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 140px;
+    box-shadow: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+.activities__article:hover{
+    width: 120px;
+    height: 160px;
+}
+.activities__article img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.activities__article span{
+    font-family: "Baskerville-SemiBold";
+}
+.section__Transactions {
+    background: var(--color-4);
+    padding: var(--padding-page);
+    margin-top: 30px;
+    overflow: scroll;
+    max-height: 400px;
+}
+.section__Transactions h3{
+    font-family: "Baskerville-Bold";
+}
+.transactions__article{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-top: 30px;
+    
+    
+}
+.article__image{
+    height: 38px;
+    width: 38px;
+}
+.article__image img{
+    height: 38px;
+    width: 38px;
+}
+.article__details{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.article__details span{
+    font-family: "Baskerville-Bold";
+}
+.article__details small{
+    font-family: "Baskerville-Medium";
+    color: var(--color-6);
+    font-size: var(--font-size);
+}
+.article__details span,
+.article__details small:last-child{
+    position: absolute;
+    margin-left: 83%;
+}
+.article__details small:last-child{
+    margin-top: 18px;
+    
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.footer__ul{
+    background: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__ul li{
+    list-style: none;
+    /* background: pink; */
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li:last-child img{
+    margin-top: 5px;
+    height: 50px;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width: var(--image-width);
+    height: var(--image-height);
+}
+
+
