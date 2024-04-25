@@ -1,0 +1,219 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    padding: var(--padding-page);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.header__title img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.header__title span{
+    font-family: "Baskerville-Bold";
+    
+}
+.header__sidebar {
+}
+.header__sidebar img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.investing {
+    padding: var(--padding-page);
+    margin-top: 12px;
+}
+.investing__title h1{
+    font-family: "Baskerville-Bold";
+}
+.investing__information {
+    /* background: red; */
+    margin-top: 15px;
+    display: flex;
+    box-shadow: none;
+    width: auto;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
+.information__image {
+    background: var(--color-5);
+    width: 130px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.information__image img{
+    width: 90px;
+    height: 100px;
+}
+.information__message {
+    /* background: pink; */
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.information__message h3{
+    font-family: "Baskerville-Bold";
+}
+.information__message small{
+    font-family: "Baskerville-Regular";
+    font-size: var(--font-size);
+    color: var(--color-6);
+}
+.information__button {
+    background: var(--color-2);
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 75px;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information__button a{
+    text-decoration: none;
+    color: var(--color-4);
+    font-family: "Baskerville-Bold";
+    font-size: 10px;
+}
+.information__close {
+    position: absolute;
+    right: 20px;
+    margin-top: 8px;
+}
+.information__close img{
+    width: var(--image-width);
+    height: var(--image-height);
+}
+.main {
+    padding: var(--padding-page);
+    margin-top: 50px;
+}
+.section__title h3{
+    font-family: "Baskerville-Bold";
+}
+.section__card {
+    /* background: red; */
+    margin-top: 20px;
+    height: 470px;
+    overflow-x: scroll;
+}
+.section__cardGrid{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.card__information{
+    background: var(--color-1);
+    background-image: url(../storage/img/cardBackground.svg);
+    background-size: cover;
+    height: 390px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
+    transition: 1s;
+}
+.card__information:hover{
+    height: 400px;
+    width: 220px;
+}
+.card__information:nth-child(2n){
+    background: var(--color-6);
+    background-image: url(../storage/img/cardBackground2.svg);
+    background-size: cover;
+}
+.information__card img{
+    width: 30px;
+    height: var(--image-height);
+}
+.information__card small{
+    font-family: "Baskerville-SemiBold";
+    font-size: var(--font-size);
+}
+.information__card,
+.information__money{
+    color: var(--color-4);
+}
+.information__money span,
+.information__money small{
+    font-family: "Baskerville-Bold";
+}
+
+.information__card{
+    /* background: turquoise; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.information__money {
+    /* background: blue; */
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+}
+.information__imageCard {
+    /* background: red; */
+    margin-bottom: 10px;
+}
+.information__imageCard img{
+    height: 20px;
+}
+
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+.footer__ul{
+    background: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__ul li{
+    list-style: none;
+    /* background: pink; */
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li:nth-child(3) img{
+    height: 70px;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width: var(--image-width);
+    height: var(--image-height);
+}
