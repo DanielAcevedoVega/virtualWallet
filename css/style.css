@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+body{
     background: var(--color-1);
-    background-image: url(/storage/img/background.svg);
+    background-image: url(/storage/img/background.svg); 
 }
 .header {
-    
     padding: 0px 15px;
     display: flex;
     flex-direction: row;
@@ -33,14 +35,53 @@
     height: 25px;
     width: 25px;
 }
+.bienvenido {
+    padding: 0px 15px;
+    /* background: green; */
+}
+.bienvenido__saludo {
+    margin-top: 25px;
+    color: var(--color-4);
+    font-size: 30px;
+    /* background: blue; */
+}
+.bienvenido__datos {
+    /* background: brown; */
+    margin-top: 17px;
+    color: var(--color-4);
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenido__datos div{
+    display: flex;
+    flex-direction: column;
+}
+.bienvenido__datos div img{
+    margin-top: 10px;
+    width: 140px;
+}
+.main {
+    background: var(--color-4);
+    margin-top: 25px;
+    width: 100%;
+    height: 80vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    overflow-y: scroll;
+}
+.section__activities {      
+    padding: 0px 15px;
+    margin-top: 30px;
+}
+.section__Transactions {
+}
 .footer {
     position: fixed;
     width: 100%;
     bottom: 0px;
-    padding: var(--space-layout-padding-lr);
 }
 .footer__ul{
-    background: red;
+    background: var(--color-1);
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -49,20 +90,21 @@
 }
 .footer__ul li{
     list-style: none;
-    background: pink;
+    /* background: pink; */
     height: 40px;
     width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .footer__ul li a{
     display: flex;
 }
 .footer__ul li a img{
     object-fit: contain;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 
