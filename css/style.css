@@ -73,21 +73,60 @@ body{
     padding: 0px 15px;
     margin-top: 30px;
 }
+.activities__div{
+    display: flex;
+    justify-content: space-between;
+}
 .activities__article{
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 140px;
-    height: 180px;
+    width: 100px;
+    height: 140px;
     box-shadow: none;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2)
 }
-.section__Transactions {
+.activities__article img{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
 }
-
+.section__Transactions {
+    padding: 0px 15px;
+    margin-top: 30px;
+}
+.transactions__article{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-top: 30px;
+}
+.article__image{
+    height: 38px;
+    width: 38px;
+}
+.article__image img{
+    height: 38px;
+    width: 38px;
+}
+.article__details{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.article__details span,
+.article__details small:last-child{
+    position: absolute;
+    margin-left: 83%;
+}
+.article__details small:last-child{
+    margin-top: 18px;
+    
+}
 .footer {
     position: fixed;
     width: 100%;
