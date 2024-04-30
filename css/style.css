@@ -148,7 +148,10 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.footer__ul li:last-child img{
+    margin-top: 5px;
+    height: 35px;
+}
 .footer__ul li a{
     display: flex;
 }
