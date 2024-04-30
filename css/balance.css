@@ -1,0 +1,70 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background: var(--color-1);
+    background-image: url(/storage/img/elipses.svg);
+    background-size: cover;
+    padding: var(--padding-page);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+}
+.header__div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 190px;
+}
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.header__title img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.header__title span{
+    color: var(--color-4);
+}
+.header__sidebar {
+}
+.header__sidebar img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.section__total {
+    background: red;
+    display: flex;
+    justify-content: center;
+    
+}
+.total__content {
+    background: var(--color-2);
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+}
+.content__total {
+    font-size: 30px;
+    color: var(--color-4);
+}
+.content__price {
+    font-size: 20px;
+    color: var(--color-4);
+}
