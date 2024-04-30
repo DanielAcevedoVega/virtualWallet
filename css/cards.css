@@ -1,0 +1,98 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    padding: var(--padding-page);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.header__title img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.header__title span{
+    
+}
+.header__sidebar {
+}
+.header__sidebar img{
+    height: var(--image-height);
+    width: var(--image-width);
+}
+.investing {
+    padding: var(--padding-page);
+    margin-top: 12px;
+}
+.investing__title {
+}
+.investing__information {
+    /* background: red; */
+    margin-top: 15px;
+    display: flex;
+    box-shadow: none;
+    width: auto;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
+.information__image {
+    background: var(--color-5);
+    width: 130px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    
+}
+.information__image img{
+    width: 90px;
+    height: 100px;
+}
+.information__message {
+    /* background: pink; */
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.information__button {
+    background: var(--color-2);
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 75px;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information__button a{
+    text-decoration: none;
+    color: var(--color-4);
+    font-size: 10px;
+}
+.information__close {
+    background: orange;
+    margin-top: 8px;
+    display: flex;
+}
+.information__close img{
+    width: var(--image-width);
+    height: var(--image-height);
+}
