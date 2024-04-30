@@ -97,6 +97,71 @@
     width: var(--image-width);
     height: var(--image-height);
 }
+.main {
+    padding: var(--padding-page);
+    margin-top: 50px;
+}
+.section__title {
+    
+}
+.section__card {
+    /* background: red; */
+    margin-top: 20px;
+    height: 470px;
+    overflow-x: scroll;
+}
+.section__cardGrid{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.card__information{
+    background: var(--color-1);
+    background-image: url(/storage/img/cardBackground.svg);
+    background-size: cover;
+    height: 390px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.card__information:nth-child(2n){
+    background: var(--color-6);
+    background-image: url(/storage/img/cardBackground2.svg);
+    background-size: cover;
+}
+.information__card img{
+    width: 30px;
+    height: var(--image-height);
+}
+.information__card,
+.information__money{
+    color: var(--color-4);
+}
+
+.information__card{
+    /* background: turquoise; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.information__money {
+    /* background: blue; */
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+}
+.information__imageCard {
+    /* background: red; */
+    margin-bottom: 10px;
+}
+.information__imageCard img{
+    height: 20px;
+}
+
+
 .footer {
     position: fixed;
     width: 100%;
