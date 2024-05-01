@@ -68,6 +68,45 @@
     font-size: 20px;
     color: var(--color-4);
 }
+
+.section__information {
+    margin-top: 100px;
+
+}
+.information__button {
+    display: flex;
+    justify-content: space-evenly;
+}
+.button__div {
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__div:nth-child(1){
+    background: var(--color-1);
+}
+.button__div:nth-child(2){
+    border: var(--color-2) solid 2px;
+}
+.button__div:nth-child(3){
+    border: var(--color-6) solid 2px;
+}
+.button__div a{
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.button__div:nth-child(1) a{
+    color: var(--color-4);
+}
+.button__div:nth-child(2) a{
+    color: var(--color-2);
+}
+.button__div:nth-child(3) a{
+    color: var(--color-6);
+}
 .footer {
     position: fixed;
     width: 100%;
