@@ -78,9 +78,9 @@
     justify-content: space-evenly;
 }
 .button__div {
-    width: 70px;
-    height: 25px;
-    border-radius: 10px;
+    width: 78px;
+    height: 30px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +107,26 @@
 .button__div:nth-child(3) a{
     color: var(--color-6);
 }
+.graphics__image {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.graphics__image img{
+    width: auto;
+    height: 120px;
+}
+.graphics__days {
+    padding: 0 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.graphics__days a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
 .footer {
     position: fixed;
     width: 100%;
