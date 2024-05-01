@@ -56,7 +56,6 @@
     display: flex;
     align-items: center;
     padding: 8px;
-    
 }
 .information__image img{
     width: 90px;
@@ -91,7 +90,6 @@
     position: absolute;
     right: 20px;
     margin-top: 8px;
-    display: flex;
 }
 .information__close img{
     width: var(--image-width);

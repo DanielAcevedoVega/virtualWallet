@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 250px;
+    height: 200px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     position: relative;
@@ -22,7 +22,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 190px;
+    padding-bottom: 140px;
 }
 .header__title {
     display: flex;
@@ -43,7 +43,6 @@
     width: var(--image-width);
 }
 .section__total {
-    background: red;
     display: flex;
     justify-content: center;
     
@@ -58,7 +57,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 120px;
+    top: 80px;
 }
 .content__total {
     font-size: 30px;
@@ -70,7 +69,7 @@
 }
 
 .section__information {
-    margin-top: 100px;
+    margin-top: 90px;
 
 }
 .information__button {
@@ -124,8 +123,49 @@
 .graphics__days a{
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: var(--color-1);
 }
+.spending__information {
+    background: var(--color-5);
+    margin-top: 25px;
+    display: flex;
+    width: auto;
+    height: 120px;
+    
+}
+.information__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    
+}
+.information__image img{
+    width: 90px;
+    height: 90px;
+}
+.information__message {
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.information__message small{
+    margin-top: 10px;
+}
+.information__close {
+    position: absolute;
+    right: 15px;
+    margin-bottom: 70px;
+    
+}
+.information__close img{
+    width: var(--image-width);
+    height: var(--image-height);
+}
+
 
 .footer {
     position: fixed;
