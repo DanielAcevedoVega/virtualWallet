@@ -9,3 +9,24 @@
     --image-width: 25px;
     --image-height: 25px;
 }
+
+@font-face {
+    font-family: "Baskerville-Bold";
+    src: url(../storage/font/baskerville/BaskervilleBoldBT.ttf);
+}
+@font-face {
+    font-family: "Baskerville-Heavy";
+    src: url(../storage/font/baskerville/baskerville-heavy.ttf);
+}
+@font-face {
+    font-family: "Baskerville-Light";
+    src: url(../storage/font/baskerville/BaskervilleLight.ttf);
+}
+@font-face {
+    font-family: "Baskerville-Medium";
+    src: url(../storage/font/baskerville/Baskerville-Medium.otf);
+}
+@font-face {
+    font-family: "Baskerville-SemiBold";
+    src: url(../storage/font/baskerville/Baskerville-SemiBold.ttf);
+}

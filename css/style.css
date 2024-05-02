@@ -24,9 +24,11 @@ body{
 .header__title img{
     height: var(--image-height);
     width: var(--image-width);
+    filter: invert(1);
 }
 .header__title span{
     color: var(--color-4);
+    font-family: "Baskerville-Bold";
 }
 .header__sidebar {
 }
@@ -42,7 +44,14 @@ body{
     margin-top: 25px;
     color: var(--color-4);
     font-size: 30px;
+    
     /* background: blue; */
+}
+.bienvenido__saludo h1{
+    font-family: "Baskerville-Heavy";
+}
+.bienvenido__saludo p{
+    font-family: "Baskerville-Light";
 }
 .bienvenido__datos {
     /* background: brown; */
@@ -54,6 +63,14 @@ body{
 .bienvenido__datos div{
     display: flex;
     flex-direction: column;
+}
+.bienvenido__datos small{
+    font-family: "Baskerville-Medium";
+    font-size: 12px;
+}
+.bienvenido__datos span{
+    font-family: "Baskerville-Bold";
+    font-size: 20px;
 }
 .bienvenido__datos div img{
     margin-top: 10px;
@@ -71,6 +88,9 @@ body{
 .section__activities {     
     padding: var(--padding-page);
     margin-top: 30px;
+}
+.section__activities h3{
+    font-family: "Baskerville-Bold";
 }
 .activities__div{
    
@@ -100,9 +120,15 @@ body{
     height: 35px;
     margin-bottom: 15px;
 }
+.activities__article span{
+    font-family: "Baskerville-SemiBold";
+}
 .section__Transactions {
     padding: var(--padding-page);
     margin-top: 30px;
+}
+.section__Transactions h3{
+    font-family: "Baskerville-Bold";
 }
 .transactions__article{  
     display: flex;
@@ -123,6 +149,14 @@ body{
     display: flex;
     flex-direction: column;
     width: 85%;
+}
+.article__details span{
+    font-family: "Baskerville-Bold";
+}
+.article__details small{
+    font-family: "Baskerville-Medium";
+    color: var(--color-6);
+    font-size: 12px;
 }
 .article__details span,
 .article__details small:last-child{
