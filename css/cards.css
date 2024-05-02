@@ -22,6 +22,7 @@
     width: var(--image-width);
 }
 .header__title span{
+    font-family: "Baskerville-Bold";
     
 }
 .header__sidebar {
@@ -34,7 +35,8 @@
     padding: var(--padding-page);
     margin-top: 12px;
 }
-.investing__title {
+.investing__title h1{
+    font-family: "Baskerville-Bold";
 }
 .investing__information {
     /* background: red; */
@@ -69,6 +71,14 @@
     flex-direction: column;
     position: relative;
 }
+.information__message h3{
+    font-family: "Baskerville-Bold";
+}
+.information__message small{
+    font-family: "Baskerville-Regular";
+    font-size: 12px;
+    color: var(--color-6);
+}
 .information__button {
     background: var(--color-2);
     position: absolute;
@@ -84,6 +94,7 @@
 .information__button a{
     text-decoration: none;
     color: var(--color-4);
+    font-family: "Baskerville-Bold";
     font-size: 10px;
 }
 .information__close {
@@ -99,8 +110,8 @@
     padding: var(--padding-page);
     margin-top: 50px;
 }
-.section__title {
-    
+.section__title h3{
+    font-family: "Baskerville-Bold";
 }
 .section__card {
     /* background: red; */
@@ -134,9 +145,17 @@
     width: 30px;
     height: var(--image-height);
 }
+.information__card small{
+    font-family: "Baskerville-SemiBold";
+    font-size: 12px;
+}
 .information__card,
 .information__money{
     color: var(--color-4);
+}
+.information__money span,
+.information__money small{
+    font-family: "Baskerville-Bold";
 }
 
 .information__card{

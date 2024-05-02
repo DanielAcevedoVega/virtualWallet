@@ -32,6 +32,7 @@
 .header__title img{
     height: var(--image-height);
     width: var(--image-width);
+    filter: invert(1);
 }
 .header__title span{
     color: var(--color-4);
@@ -67,10 +68,15 @@
     font-size: 20px;
     color: var(--color-4);
 }
-
+.content__total p,
+.content__price span{
+    font-family: "Baskerville-Bold";
+}
+.content__price small{
+    font-size: 12px;
+}
 .section__information {
     margin-top: 90px;
-
 }
 .information__button {
     display: flex;
@@ -96,6 +102,7 @@
 .button__div a{
     text-decoration: none;
     font-size: 0.9em;
+    font-family: "Baskerville-Regular";
 }
 .button__div:nth-child(1) a{
     color: var(--color-4);
@@ -122,7 +129,8 @@
 }
 .graphics__days a{
     text-decoration: none;
-    font-size: 15px;
+    font-family: "Baskerville-Medium";
+    font-size: 12px;
     color: var(--color-1);
 }
 .spending__information {
@@ -152,8 +160,14 @@
     justify-content: center;
     position: relative;
 }
+.information__message h3{
+    font-family: "Baskerville-Bold";
+}
 .information__message small{
     margin-top: 10px;
+    font-family: "Baskerville-Regular";
+    font-size: 12px;
+    color: var(--color-6);
 }
 .information__close {
     position: absolute;

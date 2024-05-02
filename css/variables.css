@@ -30,3 +30,7 @@
     font-family: "Baskerville-SemiBold";
     src: url(../storage/font/baskerville/Baskerville-SemiBold.ttf);
 }
+@font-face {
+    font-family: "Baskerville-Regular";
+    src: url(../storage/font/baskerville/Baskerville-Regular.otf);
+}
