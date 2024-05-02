@@ -202,8 +202,7 @@
     justify-content: center;
 }
 .footer__ul li:nth-child(3) img{
-    margin-top: 5px;
-    height: 35px;
+    height: 70px;
 }
 .footer__ul li a{
     display: flex;

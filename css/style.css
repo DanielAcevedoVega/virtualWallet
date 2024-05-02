@@ -35,6 +35,7 @@ body{
 .header__sidebar img{
     height: var(--image-height);
     width: var(--image-width);
+    filter: invert(1);
 }
 .bienvenido {
     padding: var(--padding-page);
@@ -191,7 +192,7 @@ body{
 }
 .footer__ul li:last-child img{
     margin-top: 5px;
-    height: 35px;
+    height: 50px;
 }
 .footer__ul li a{
     display: flex;
