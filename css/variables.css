@@ -1,13 +1,14 @@
 :root{
-    --color-1: #33404F;
-    --color-2: #00DDA3;
+    --color-1: #820ad1;
+    --color-2: #a376ff;
     --color-3: #B5C5C3;
     --color-4: #fff;
-    --color-5: #E1FFEF;
+    --color-5: #f1e9ff;
     --color-6: #ADB3B9;
     --padding-page: 0px 15px;
     --image-width: 25px;
     --image-height: 25px;
+    --font-size: 12px;
 }
 
 @font-face {

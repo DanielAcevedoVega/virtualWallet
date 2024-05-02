@@ -73,7 +73,7 @@
     font-family: "Baskerville-Bold";
 }
 .content__price small{
-    font-size: 12px;
+    font-size: var(--font-size);
 }
 .section__information {
     margin-top: 90px;
@@ -130,7 +130,7 @@
 .graphics__days a{
     text-decoration: none;
     font-family: "Baskerville-Medium";
-    font-size: 12px;
+    font-size: var(--font-size);
     color: var(--color-1);
 }
 .spending__information {
@@ -166,7 +166,7 @@
 .information__message small{
     margin-top: 10px;
     font-family: "Baskerville-Regular";
-    font-size: 12px;
+    font-size: var(--font-size);
     color: var(--color-6);
 }
 .information__close {

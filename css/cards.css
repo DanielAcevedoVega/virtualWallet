@@ -76,7 +76,7 @@
 }
 .information__message small{
     font-family: "Baskerville-Regular";
-    font-size: 12px;
+    font-size: var(--font-size);
     color: var(--color-6);
 }
 .information__button {
@@ -147,7 +147,7 @@
 }
 .information__card small{
     font-family: "Baskerville-SemiBold";
-    font-size: 12px;
+    font-size: var(--font-size);
 }
 .information__card,
 .information__money{
