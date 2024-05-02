@@ -81,10 +81,8 @@ body{
     background: var(--color-4);
     margin-top: 25px;
     width: 100%;
-    height: 80vh;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    overflow-y: scroll;
 }
 .section__activities {     
     padding: var(--padding-page);
@@ -92,9 +90,12 @@ body{
 }
 .section__activities h3{
     font-family: "Baskerville-Bold";
+    position: relative;
+    top: 20px;
+    
 }
 .activities__div{
-   
+    margin-top: 20px;
     display: grid;
     grid-auto-flow: column;
     gap: 15px;
@@ -130,8 +131,11 @@ body{
     font-family: "Baskerville-SemiBold";
 }
 .section__Transactions {
+    background: var(--color-4);
     padding: var(--padding-page);
     margin-top: 30px;
+    overflow: scroll;
+    max-height: 400px;
 }
 .section__Transactions h3{
     font-family: "Baskerville-Bold";
@@ -141,6 +145,8 @@ body{
     flex-direction: row;
     justify-content: space-between;   
     margin-top: 30px;
+    
+    
 }
 .article__image{
     height: 38px;
