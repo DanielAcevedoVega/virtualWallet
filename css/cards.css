@@ -135,6 +135,11 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 0 15px;
+    transition: 1s;
+}
+.card__information:hover{
+    height: 400px;
+    width: 220px;
 }
 .card__information:nth-child(2n){
     background: var(--color-6);

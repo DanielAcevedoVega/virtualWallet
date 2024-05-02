@@ -60,6 +60,10 @@
     align-items: center;
     position: absolute;
     top: 80px;
+    transition: rotate 2s;
+}
+.total__content:hover{
+    rotate: 360deg;
 }
 .content__total {
     font-size: 30px;
